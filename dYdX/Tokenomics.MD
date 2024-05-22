@@ -1,6 +1,6 @@
 **The DYDX token is the L1 protocol token for the dYdX Chain, as agreed by the dYdX community through dYdX governance**
 
-** DYDX is distributed to users by validators on the dYdX Chain on a 1-1 proportional basis based on the amount of Ethereum-based DYDX (ethDYDX) that each user sends to the wethDYDX Smart Contract. ** 
+DYDX is distributed to users by validators on the dYdX Chain on a 1-1 proportional basis based on the amount of Ethereum-based DYDX (ethDYDX) that each user sends to the wethDYDX Smart Contract. ** 
 
 The allocation of DYDX is based on the allocation of ethDYDX. The allocation of ethDYDX changed since its launch on August 3, 2021 due to several governance proposals. The updated allocation of ethDYDX:
 
