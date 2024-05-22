@@ -11,11 +11,11 @@ The wethDYDX Smart Contract enables the migration of ethDYDX from Ethereum to th
 
 https://coinmarketcap.com/currencies/dydx-chain/
 
-Market Cap:- $1,149,232,271 \n
-Volume/Market Cap :- 4-5 percent.
-Circulating supply :- 558,480,505 DYDX.
-Total supply :- 754,030,660 DYDX.
-Fully dilluted market cap :- $1,552,317,214.
+Market Cap:- $1,149,232,271.  
+Volume/Market Cap :- 4-5 percent.  
+Circulating supply :- 558,480,505 DYDX.  
+Total supply :- 754,030,660 DYDX.  
+Fully dilluted market cap :- $1,552,317,214.  
 
 # 27.7% is allocated to Investors #
 # 15.3% is allocated to Employees and Consultants of dYdX Trading or Foundation #
