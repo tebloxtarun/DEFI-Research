@@ -1,8 +1,8 @@
 Liquidity Pools  
-SWAP
+SWAP  
 Smart Order Routing  
-Liquidity Mining  
-Customizable Pools  
+Liquidity Mining:- Incentive on providing liquidity  
+Customizable Pools :- User's can make their own pool
 Portfolio Management  
-Governance  
+Governance :- Loking tokens into veBAL
  
