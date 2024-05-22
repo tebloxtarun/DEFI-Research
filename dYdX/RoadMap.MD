@@ -32,3 +32,5 @@
      - **Enhanced Usability:** Better presentation of crucial information.
      - **Social Integration:** Inclusion of social elements in the platform.
      - **Improved Onboarding:** Streamlined onboarding processes with support for centralized exchanges (CEX) and new wallets.
+
+https://dydx.exchange/blog/2024-product-roadmap
