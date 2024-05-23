@@ -57,20 +57,6 @@ To create a pool using this contract, the following steps are typically followed
    - Once all desired tokens are bound, call the `finalize` function.
    - This function checks that the pool has the minimum required tokens and mints the initial pool shares to the controller.
 
-Here is an example sequence to create and finalize a pool:
-
-```solidity
-// Deploy the BPool contract
-BPool pool = new BPool();
-
-// Bind tokens (example with two tokens)
-pool.bind(tokenA, initialBalanceA, initialWeightA);
-pool.bind(tokenB, initialBalanceB, initialWeightB);
-
-// Finalize the pool
-pool.finalize();
-```
-
 After finalization, the pool is ready for public interactions, such as swapping tokens and providing or removing liquidity.
 
 ### Conclusion
