@@ -1,6 +1,15 @@
 https://github.com/balancer/balancer-core/blob/master/contracts/BPool.sol
 
-The provided `BPool` smart contract is a partial implementation of a Balancer-like pool on the Ethereum blockchain. This contract includes functionalities for adding liquidity, swapping tokens, and managing the pool's configuration. 
+The provided `BPool` smart contract is a partial implementation of a Balancer-like pool on the Ethereum blockchain. This contract includes functionalities for pool creatation, adding liquidity, swapping tokens, and managing the pool's configuration. 
+
+Steps of Pool Creation
+
+# Flow for Pool Creation and Operation  
+-> Deploy the Pool: Deploy BPool contract.  
+-> Configure the Pool: Use bind or rebind to configure the tokens.  
+-> Enable Public Interactions: Set parameters for public interactions (swap, join) using setPublicSwap and finalize.  
+-> Public Adds Liquidity: Users join the pool using joinPool or joinswapExternAmountIn.  
+Pool will be created
 
 ### Key Components and Functions:
 
