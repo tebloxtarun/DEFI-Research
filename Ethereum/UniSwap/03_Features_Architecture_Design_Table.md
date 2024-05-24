@@ -293,3 +293,96 @@ Sure, here is the tabular representation of the flow of actions for each of the 
 | 15   | Backend Updates User Interface | Backend Services → Frontend Interface | Provides feedback to user | Retrieves transaction status and updates the frontend interface. | Displays a confirmation message with details of the completed swap. |
 | 16   | User Wallet Signs and Completes Transaction | Wallet Integrations | Authorizes transaction | Prompts the user's wallet to sign the transaction. | The user signs the transaction using their wallet, completing the swap process.
 
+Sure, here is the tabular representation of the flow of actions for each of the remaining features in UniSwap v4, starting from Feature 19:
+
+### Feature 19: Advanced AMM Parameters
+
+| Step | Action | Component | Role | Description | Example |
+|------|--------|-----------|------|-------------|---------|
+| 1    | User Interaction with AMM Settings UI | Frontend Interface | Captures user input | User selects tokens and specifies advanced AMM parameters. | User selects to provide liquidity for ETH/DAI and specifies advanced parameters. |
+| 2    | Frontend Sends AMM Settings Request | Frontend Interface → Backend Services | Communicates user's request | User submits the advanced AMM settings request. | The frontend sends a request containing the AMM settings details to the backend service. |
+| 3    | Backend Validates Request | Backend Services | Ensures request validity | Validates the AMM settings request, checking for sufficient balance and valid parameters. | Checks if the user has enough tokens and if the specified parameters are valid. |
+| 4    | Backend Prepares Transaction Data | Backend Services | Formats data for smart contract | Prepares the transaction data for the AMM settings smart contract call. | Calculates the share of liquidity based on the specified parameters. |
+| 5    | Backend Calls the Smart Contract | Backend Services → Smart Contracts | Initiates AMM settings | Sends the prepared transaction data to the smart contract. | Sends AMM settings details to the smart contract handling the liquidity pool. |
+| 6    | Smart Contract Adjusts AMM Parameters | Smart Contracts | Adjusts AMM parameters | Updates the AMM parameters for the user's liquidity provision based on the new settings. | Adjusts the AMM structure in the liquidity pool according to the new parameters. |
+| 7    | Blockchain Confirms the Transaction | Blockchain Network | Ensures transaction validity | Validates and confirms the transaction. | The transaction is included in a new block and updated AMM parameters are recorded. |
+| 8    | Smart Contract Emits Events | Smart Contracts → Backend Services | Provides transaction details | Emits events indicating the AMM settings details and outcome. | Emits events such as AMMParametersUpdated with details of the new AMM parameters. |
+| 9    | Backend Updates User Interface | Backend Services → Frontend Interface | Provides feedback to user | Retrieves transaction status and updates the frontend interface. | Displays a confirmation message with details of the updated AMM parameters. |
+| 10   | User Wallet Signs and Completes Transaction | Wallet Integrations | Authorizes transaction | Prompts the user's wallet to sign the transaction. | The user signs the transaction using their wallet, completing the process.
+
+### Feature 20: Flash Swaps
+
+| Step | Action | Component | Role | Description | Example |
+|------|--------|-----------|------|-------------|---------|
+| 1    | User Interaction with Flash Swap UI | Frontend Interface | Captures user input | User selects tokens and specifies the details for a flash swap. | User selects to perform a flash swap with ETH and DAI. |
+| 2    | Frontend Sends Flash Swap Request | Frontend Interface → Backend Services | Communicates user's request | User submits the flash swap request. | The frontend sends a request containing the flash swap details to the backend service. |
+| 3    | Backend Validates Request | Backend Services | Ensures request validity | Validates the flash swap request, checking for sufficient balance and valid parameters. | Checks if the user has enough tokens and if the specified parameters are valid. |
+| 4    | Backend Prepares Transaction Data | Backend Services | Formats data for smart contract | Prepares the transaction data for the flash swap smart contract call. | Calculates the necessary parameters for the flash swap. |
+| 5    | Backend Calls the Smart Contract | Backend Services → Smart Contracts | Initiates flash swap | Sends the prepared transaction data to the smart contract. | Sends flash swap details to the smart contract handling the liquidity pool. |
+| 6    | Smart Contract Executes Flash Swap | Smart Contracts | Executes flash swap | Performs the flash swap, temporarily borrowing the tokens and repaying them in the same transaction. | Adjusts the balances of tokens in the pool and ensures repayment within the same transaction. |
+| 7    | Blockchain Confirms the Transaction | Blockchain Network | Ensures transaction validity | Validates and confirms the transaction. | The transaction is included in a new block and updated token balances are recorded. |
+| 8    | Smart Contract Emits Events | Smart Contracts → Backend Services | Provides transaction details | Emits events indicating the flash swap details and outcome. | Emits events such as FlashSwapExecuted with details of the tokens swapped and amounts. |
+| 9    | Backend Updates User Interface | Backend Services → Frontend Interface | Provides feedback to user | Retrieves transaction status and updates the frontend interface. | Displays a confirmation message with details of the completed flash swap. |
+| 10   | User Wallet Signs and Completes Transaction | Wallet Integrations | Authorizes transaction | Prompts the user's wallet to sign the transaction. | The user signs the transaction using their wallet, completing the flash swap process.
+
+### Feature 21: Flash Loans and Swaps
+
+| Step | Action | Component | Role | Description | Example |
+|------|--------|-----------|------|-------------|---------|
+| 1    | User Interaction with Flash Loan UI | Frontend Interface | Captures user input | User selects tokens and specifies the details for a flash loan. | User selects to perform a flash loan with ETH and DAI. |
+| 2    | Frontend Sends Flash Loan Request | Frontend Interface → Backend Services | Communicates user's request | User submits the flash loan request. | The frontend sends a request containing the flash loan details to the backend service. |
+| 3    | Backend Validates Request | Backend Services | Ensures request validity | Validates the flash loan request, checking for sufficient balance and valid parameters. | Checks if the user has enough collateral and if the specified parameters are valid. |
+| 4    | Backend Prepares Transaction Data | Backend Services | Formats data for smart contract | Prepares the transaction data for the flash loan smart contract call. | Calculates the necessary parameters for the flash loan. |
+| 5    | Backend Calls the Smart Contract | Backend Services → Smart Contracts | Initiates flash loan | Sends the prepared transaction data to the smart contract. | Sends flash loan details to the smart contract handling the liquidity pool. |
+| 6    | Smart Contract Executes Flash Loan | Smart Contracts | Executes flash loan | Performs the flash loan, temporarily lending the tokens and ensuring repayment within the same transaction. | Adjusts the balances of tokens in the pool and ensures repayment within the same transaction. |
+| 7    | Blockchain Confirms the Transaction | Blockchain Network | Ensures transaction validity | Validates and confirms the transaction. | The transaction is included in a new block and updated token balances are recorded. |
+| 8    | Smart Contract Emits Events | Smart Contracts → Backend Services | Provides transaction details | Emits events indicating the flash loan details and outcome. | Emits events such as FlashLoanExecuted with details of the loaned tokens and amounts. |
+| 9    | Backend Updates User Interface | Backend Services → Frontend Interface | Provides feedback to user | Retrieves transaction status and updates the frontend interface. | Displays a confirmation message with details of the completed flash loan. |
+| 10   | User Wallet Signs and Completes Transaction | Wallet Integrations | Authorizes transaction | Prompts the user's wallet to sign the transaction. | The user signs the transaction using their wallet, completing the flash loan process.
+
+### Feature 22: Enhanced Governance Mechanisms
+
+| Step | Action | Component | Role | Description | Example |
+|------|--------|-----------|------|-------------|---------|
+| 1    | User Interaction with Governance UI | Frontend Interface | Captures user input | User views and interacts with governance proposals and voting mechanisms. | User views a proposal to change the fee structure and votes on it. |
+| 2    | Frontend Sends Governance Request | Frontend Interface → Backend Services | Communicates user's request | User submits a vote or creates a new governance proposal. | The frontend sends a request containing the vote or proposal details to the backend service. |
+| 3    | Backend Validates Request | Backend Services | Ensures request validity | Validates the governance request, checking for valid parameters and user eligibility. | Checks if the user is eligible to vote and if the proposal parameters are valid. |
+| 4    | Backend Prepares Transaction Data | Backend Services | Formats data for smart contract | Prepares the transaction data for the governance smart contract call. | Calculates the necessary parameters for the governance proposal or vote. |
+| 5    | Backend Calls the Smart Contract | Backend Services → Smart Contracts | Initiates governance action | Sends the prepared transaction data to the smart contract. | Sends governance details to the smart contract handling the governance mechanisms. |
+| 6    | Smart Contract Executes Governance Action | Smart Contracts | Executes governance action | Records the vote or proposal and updates the governance state. | Adjusts the governance state based on the vote or new proposal. |
+| 7    | Blockchain Confirms the Transaction | Blockchain Network | Ensures transaction validity | Validates and confirms the transaction. | The transaction is included in a new block and updated governance state is recorded. |
+| 8    | Smart Contract Emits Events | Smart Contracts → Backend Services | Provides transaction details | Emits events indicating the governance action details and outcome. | Emits events such as ProposalCreated or VoteRecorded with details of the governance action. |
+| 9    | Backend Updates User Interface | Backend Services → Frontend Interface | Provides feedback to user | Retrieves transaction status and updates the frontend interface. | Displays a confirmation message with details of the completed governance action. |
+| 10   | User Wallet Signs and Completes Transaction | Wallet Integrations | Authorizes transaction | Prompts the user's wallet to sign the transaction. | The user signs the transaction using their wallet, completing the governance process. |
+
+### Feature 23: Layer 2 Scaling Solutions
+
+| Step | Action | Component | Role | Description | Example |
+|------|--------|-----------|------|-------------|---------|
+| 1    | User Interaction with Layer 2 UI | Frontend Interface | Provides UI for Layer 2 interactions | User selects to use Layer 2 solutions for transactions. | User selects to perform a transaction using a Layer 2 network like Optimism. |
+| 2    | Frontend Sends Layer 2 Request | Frontend Interface → Backend Services | Communicates user's request | User submits the transaction request for Layer 2. | The frontend sends a request containing the transaction details to the backend service. |
+| 3    | Backend Validates Request | Backend Services | Ensures request validity | Validates the transaction request for Layer 2, checking for sufficient balance and valid parameters. | Checks if the user has enough tokens and if the specified parameters are valid. |
+| 4    | Backend Prepares Transaction Data | Backend Services | Formats data for smart contract | Prepares the transaction data for the Layer 2 smart contract call. | Calculates the necessary parameters for the Layer 2 transaction. |
+| 5    | Backend Calls the Smart Contract | Backend Services → Smart Contracts | Initiates Layer 2 transaction | Sends the prepared transaction data to the Layer 2 smart contract. | Sends transaction details to the smart contract on the Layer 2 network. |
+| 6    | Smart Contract Executes Layer 2 Transaction | Smart Contracts | Executes Layer 2 transaction | Performs the transaction on the Layer 2 network. | Adjusts the balances of tokens on the Layer 2 network. |
+| 7    | Layer 2 Network Confirms the Transaction | Blockchain Network | Ensures transaction validity | Validates and confirms the transaction on the Layer 2 network. | The transaction is included in a new block on the Layer 2 network and updated token balances are recorded. |
+| 8    | Smart Contract Emits Events | Smart Contracts → Backend Services | Provides transaction details | Emits events indicating the Layer 2 transaction details and outcome. | Emits events such as Layer2TransactionExecuted with details of the transaction. |
+| 9    | Backend Updates User Interface | Backend Services → Frontend Interface | Provides feedback to user | Retrieves transaction status and updates the frontend interface. | Displays a confirmation message with details of the completed Layer 2 transaction. |
+| 10   | User Wallet Signs and Completes Transaction | Wallet Integrations | Authorizes transaction | Prompts the user's wallet to sign the transaction. | The user signs the transaction using their wallet, completing the Layer 2 transaction process. |
+
+### Feature 24: Cross-Chain Functionality
+
+| Step | Action | Component | Role | Description | Example |
+|------|--------|-----------|------|-------------|---------|
+| 1    | User Interaction with Cross-Chain UI | Frontend Interface | Provides UI for cross-chain interactions | User selects to perform a cross-chain transaction. | User selects to transfer tokens from Ethereum to another blockchain. |
+| 2    | Frontend Sends Cross-Chain Request | Frontend Interface → Backend Services | Communicates user's request | User submits the cross-chain transaction request. | The frontend sends a request containing the transaction details to the backend service. |
+| 3    | Backend Validates Request | Backend Services | Ensures request validity | Validates the cross-chain transaction request, checking for sufficient balance and valid parameters. | Checks if the user has enough tokens and if the specified parameters are valid. |
+| 4    | Backend Prepares Transaction Data | Backend Services | Formats data for smart contract | Prepares the transaction data for the cross-chain smart contract call. | Calculates the necessary parameters for the cross-chain transaction. |
+| 5    | Backend Calls the Smart Contract | Backend Services → Smart Contracts | Initiates cross-chain transaction | Sends the prepared transaction data to the cross-chain smart contract. | Sends transaction details to the smart contract handling the cross-chain functionality. |
+| 6    | Smart Contract Executes Cross-Chain Transaction | Smart Contracts | Executes cross-chain transaction | Performs the transaction across multiple blockchains. | Adjusts the balances of tokens on both blockchains. |
+| 7    | Blockchain Networks Confirm the Transaction | Blockchain Network | Ensures transaction validity | Validates and confirms the transaction on both blockchains. | The transaction is included in new blocks on both blockchains and updated token balances are recorded. |
+| 8    | Smart Contract Emits Events | Smart Contracts → Backend Services | Provides transaction details | Emits events indicating the cross-chain transaction details and outcome. | Emits events such as CrossChainTransactionExecuted with details of the transaction. |
+| 9    | Backend Updates User Interface | Backend Services → Frontend Interface | Provides feedback to user | Retrieves transaction status and updates the frontend interface. | Displays a confirmation message with details of the completed cross-chain transaction. |
+| 10   | User Wallet Signs and Completes Transaction | Wallet Integrations | Authorizes transaction | Prompts the user's wallet to sign the transaction. | The user signs the transaction using their wallet, completing the cross-chain transaction process.
+
+This concludes the tabular representation for all features in UniSwap v4, detailing the flow of actions, components involved, and their roles for each feature.
