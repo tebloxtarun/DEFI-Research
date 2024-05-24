@@ -8,7 +8,7 @@
    - Fees are distributed proportionally among liquidity providers.
 
 3. **Automated Market Making**:
-   - Uses the constant product formula \( x \cdot y = k \).
+   - Uses the constant product formula ( x * y = k ).
    - Prices adjust automatically based on reserves.
 
 4. **Trading Mechanism**:
