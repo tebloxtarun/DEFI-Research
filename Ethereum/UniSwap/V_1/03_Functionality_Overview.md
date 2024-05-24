@@ -1,7 +1,7 @@
 ### Overview of Uniswap V1 Functionality
 
 **1. Structure and Creation**
-- **ETH-ERC20 Exchange Contracts**: Each ERC20 token has a unique exchange contract.
+- **ETH-ERC20 Exchange Contracts**: Each ERC20 token has a unique exchange contract(Liquidity Pool).
 - **Uniswap Factory Contract**: Anyone can create an exchange for a token using this contract, which serves as a public registry.
 
 **2. Liquidity Provision**
