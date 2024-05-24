@@ -1,3 +1,21 @@
+### Feature1: Modular Component Based Design
+
+| Step | Action | Component | Description |
+|------|--------|-----------|-------------|
+| 1    | Design Modular UI Components | Frontend Interface | Design the user interface in a modular fashion, where each feature is a separate, independent module. |
+| 2    | Develop Decoupled Microservices | Backend Services | Implement backend services as independent microservices, each handling a specific functionality. |
+| 3    | Create Modular Smart Contracts | Smart Contracts | Write smart contracts in a modular way, where each contract handles a specific function or set of related functions. |
+| 4    | Support Dynamic Updates | Blockchain Network | Ensure the blockchain network supports dynamic updates to smart contracts and modules without requiring a complete system overhaul. |
+| 5    | Adapt Wallet Integrations | Wallet Integrations | Integrate with wallets to support the modular nature of the application, allowing users to interact with different modules seamlessly. |
+| 6    | User Interaction with Modular UI | Frontend Interface | User navigates to the token swap module in the frontend interface, loading the relevant options and input fields. |
+| 7    | Frontend Sends Request to Appropriate Microservice | Frontend Interface → Backend Services | The frontend interface sends the token swap request to the corresponding microservice. |
+| 8    | Microservice Processes the Request | Backend Services | The token swap microservice validates the user request and prepares the transaction data. |
+| 9    | Microservice Calls the Smart Contract | Backend Services → Smart Contracts | The microservice sends the formatted transaction data to the smart contract handling token swaps. |
+| 10   | Smart Contract Executes the Transaction | Smart Contracts → Blockchain Network | The smart contract performs the token swap according to the predefined logic. |
+| 11   | Blockchain Confirms the Transaction | Blockchain Network | The blockchain network validates and confirms the transaction. |
+| 12   | Microservice Updates the Frontend | Backend Services → Frontend Interface | The microservice retrieves the transaction status and updates the frontend interface. |
+| 13   | User Wallet Signs and Completes the Transaction | Wallet Integrations | The user’s wallet is prompted to sign the transaction, completing the process. |
+
 ### Feature2: Constant Product Market Maker Model
 
 | Step | Action | Component | Role | Description | Example |
