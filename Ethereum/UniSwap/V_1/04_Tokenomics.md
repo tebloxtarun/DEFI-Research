@@ -1,5 +1,4 @@
-### Uniswap Tokenomics Overview
-
+### Uniswap Tokenomics
 1. **Exchange Pools**:
    - Each ERC-20 token has a dedicated exchange holding reserves of ETH and the token.
    - Liquidity providers add assets to these pools.
@@ -21,27 +20,16 @@
    - Trades involve two steps: ERC-20 to ETH, then ETH to ERC-20.
 
 6. **Pricing Calculations**:
-   - **Sell Orders**: Output amount is calculated with:
-     \[
-     \text{outputAmount} = \frac{\text{inputAmount} \cdot \text{outputReserve} \cdot 997}{\text{inputReserve} \cdot 1000 + \text{inputAmount} \cdot 997}
-     \]
-   - **Buy Orders**: Input cost is calculated with:
-     \[
-     \text{inputAmount} = \frac{\text{outputAmount} \cdot \text{inputReserve} \cdot 1000}{(\text{outputReserve} - \text{outputAmount}) \cdot 997} + 1
-     \]
 
+![image](https://github.com/tebloxtarun/DEFI-Research/assets/170435024/c4ae43e7-3025-4a18-8b1d-095246fa383d)  
 7. **ERC-20 to ERC-20 Trading**:
-   - Involves converting TokenA to ETH, then ETH to TokenB.
-   - Combined fee:
-     \[
-     \text{combinedFee} = \text{inputAmountA} \cdot 0.00591
-     \]
+   - Involves converting TokenA to ETH, then ETH to TokenB.  
+![image](https://github.com/tebloxtarun/DEFI-Research/assets/170435024/a72b5f18-8df8-4469-8a80-f24f24e95bdc)
 
 8. **Exchange Rates**:
-   - Determined by:
-     \[
-     \text{rate} = \frac{\text{outputAmount}}{\text{inputAmount}}
-     \]
+   - Determined by:  
+![image](https://github.com/tebloxtarun/DEFI-Research/assets/170435024/7e80e35b-276b-4b2c-ac1e-c618b1c2d152)
+
 
 9. **Deadlines**:
    - Set to prevent indefinite holding by miners.
