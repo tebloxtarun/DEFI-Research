@@ -5,16 +5,15 @@
 |                         | - View data of tokens, pools, and transactions                                                                    |
 |                         | - Buy NFTs                                                                                                        |
 |                         | - Add liquidity to existing pools                                                                                 |
-|                         | - Remove liquidity from pools                                                                                     |
 |                         | - Participate in governance (using UNI tokens)                                                                    |
 |                         | - Use custom trading interfaces                                                                                   |
-|                         | - Utilize portfolio management tools                                                                              |
 |                         | - Execute automated trading strategies                                                                            |
 |                         | - Access historical transaction data                                                                              |
 |                         | - Use mobile interfaces for trading                                                                               |
 |                         | - Analyze market trends                                                                                           |
 | **Liquidity Provider**  | - Add liquidity to pools                                                                                           |
 |                         | - Remove liquidity from pools                                                                                     |
+|                         | -Create new liquidity pool                                                                                           |
 |                         | - Earn trading fees                                                                                               |
 |                         | - Participate in yield farming and staking                                                                        |
 |                         | - Manage liquidity positions                                                                                      |
