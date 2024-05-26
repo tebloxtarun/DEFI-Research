@@ -1,5 +1,3 @@
-Certainly! Below is a comprehensive table that encapsulates all the use cases for each functionality in the DeFi system, aligned with the appropriate actors. This will provide a clear and structured visualization of the interactions and responsibilities within the system.
-
 ### Comprehensive Use Case Table for DeFi System Features
 
 | **Feature**                        | **Actor**                 | **Use Cases**                                                                                                  |
@@ -46,9 +44,7 @@ Certainly! Below is a comprehensive table that encapsulates all the use cases fo
 |                                      | Developer/Maintainer      | Update and maintain supported ERC-20 token lists.                                                            |
 | **Enhanced User Interface**          | Trader/User               | Experience a user-friendly interface designed for ease of use and accessibility.                              |
 |                                      | Developer/Maintainer      | Design, update, and refine user interfaces.                                                                  |
-| **Concentrated Liquidity**           | Liquidity Provider        | Choose specific price ranges to provide liquidity
-
-, optimizing capital efficiency.                            |
+| **Concentrated Liquidity**           | Liquidity Provider        | Choose specific price ranges to provide liquidity, optimizing capital efficiency.                            |
 |                                      | Developer/Maintainer      | Implement and maintain concentrated liquidity features.                                                      |
 | **Multiple Fee Tiers**               | Liquidity Provider        | Opt for different fee tiers based on expected pool volatility and trading volume.                            |
 |                                      | Developer/Maintainer      | Design and maintain structures for multiple fee tiers.                                                       |
@@ -72,4 +68,3 @@ Certainly! Below is a comprehensive table that encapsulates all the use cases fo
 | **Flash Loans and Swaps**            | Trader/User               | Utilize flash loans for arbitrage opportunities and collateral swapping.                                     |
 |                                      | Developer/Maintainer      | Develop and ensure the security of flash loan functionalities.                                               |
 
-This table provides a structured and detailed view of all possible interactions between the system’s features and the actors involved, offering a clear roadmap for stakeholders to understand the functional breadth of the platform.
