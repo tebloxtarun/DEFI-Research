@@ -11,7 +11,7 @@
      4. The Trader/User authenticates and authorizes the DEX to access their wallet.
      5. The DEX confirms the wallet connection and updates the user interface to show the wallet’s status as connected.
    - **Extensions:**
-     - **3a.** The wallet type selected is not supported:
+     - **3a** The wallet type selected is not supported:
        - **3a1.** The DEX notifies the Trader/User about the incompatibility.
      - **4a.** Authentication fails:
        - **4a1.** The Trader/User is prompted to try logging in again or choose another authentication method.
