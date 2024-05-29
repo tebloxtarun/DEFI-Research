@@ -28,4 +28,4 @@ Despite their advantages, prediction markets face several challenges:
 
 
 
-[Insert relevant references and sources here.]
+
