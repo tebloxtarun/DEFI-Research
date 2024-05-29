@@ -1,6 +1,6 @@
-# POLYMARKET
+# Torpedo
 
-To sign up on Polymarket:
+To sign up on Torpedo:
 
 1. Click "Sign Up" on the top right.
 2. Enter your email and click "Sign up with email".
@@ -10,7 +10,7 @@ To sign up on Polymarket:
 
 ## For Crypto Wallet sign up:
 
-1. Click "Sign Up" on Polymarket.
+1. Click "Sign Up" on Torpedo.
 2. Choose your preferred wallet and connect it to Polymarket. You'll need to be on the Polygon Network.
 3. Connect your wallet and sign in.
 4. Choose your display name, agree to terms, opt into emails, and start trading.
