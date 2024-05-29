@@ -6,7 +6,7 @@ The ve(3,3) model is a sophisticated tokenomics design that enhances long-term p
 ## Key Mechanism
 ### Token Locking and veTokens
 
-*    veTokens: Users lock base tokens (e.g., SLD) to receive veTokens, which grant voting power and access to rewards.
+*    ve`Tokens`: Users lock base tokens (e.g., `$VELO`) to receive veTokens (e.g., `$veVELO`), which grant voting power and access to rewards.
 *    Lock Period: Ranges from 1 week to 4 years. Longer locks provide more voting power and rewards.
 *    Decay: veTokens decay over time, reducing voting power and rewards as the lock period progresses.
 
