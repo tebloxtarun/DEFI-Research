@@ -1,5 +1,5 @@
 
-### Removing Liquidity from Polkamarkets
+### Removing Liquidity from TORPEDO
 
 Removing liquidity from a market has the same constraints, and the opposite effect, of adding liquidity to a market. 
 As the price of the outcomes cannot be impacted by the rebalancing of the pools, the Liquidity Provider will receive shares of all the outcomes except for the most likely (i.e. most expensive) outcome (instead of all but the least likely) when removing liquidity from a market.
