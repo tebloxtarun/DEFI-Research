@@ -1,5 +1,3 @@
-Sure, let's define the tasks and responsibilities of the files and directories in your project:
-
 ### Directory and File Structure
 
 #### `src`
