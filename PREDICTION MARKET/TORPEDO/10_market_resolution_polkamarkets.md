@@ -20,7 +20,7 @@ This process has worked fantastically so far. Out of the 2670 markets created ac
 
 Despite the system's success, there is a theoretical problem with its design. While the system makes it exponentially more risky to try to cheat the result of the market – a malicious actor stands to lose an exponentially larger amount of bonded POLK with every wrongful bond – it still gives an advantage to users who hold large amounts of POLK. Even though no “bonding war” was ever observed on Torpedo, the potential problem exists.
 
-For that reason, Polkamarkets also supports a fail-safe mechanism that allows any user to bypass the Optimistic Oracle by summoning a Kleros Court so that a jury will impartially decide what the correct outcome of a market is.
+For that reason, TORPEDO also supports a fail-safe mechanism that allows any user to bypass the Optimistic Oracle by summoning a Kleros Court so that a jury will impartially decide what the correct outcome of a market is.
 
 #### How does Market Resolution work on TORPEDO ?
 
@@ -34,8 +34,4 @@ For that reason, Polkamarkets also supports a fail-safe mechanism that allows an
 
 🚨 Note that it only makes sense to place a higher bond on a different outcome than the one that is currently bonded (i.e., to challenge it). Placing a higher bond on the currently bonded outcome will not yield any rewards.
 
-**Escalating to a Kleros Court on Polygon:**
-- Kleros Court has been around since 2019 and has helped settle 1600+ disputes and currently has over 700 active jurors. As a well-known and well-trusted protocol, Kleros Court is an excellent choice for providing an additional layer of robustness to the Polkamarkets Protocol.
-- To bypass the Optimistic Oracle process, TORPEDO users can simply click a button in the Polkamarkets Web App to escalate the resolution of a Polygon-based prediction market to a Kleros Court.
-- A Kleros Court currently costs 0.496 ETH to summon. The Kleros protocol uses this amount to pay Jurors for their work and cover operational costs. It’s also expensive enough that it should prevent users from opting into it without good reason.
-- When a Kleros Court renders its decision, the TORPEDO Protocol will still give a three-day window for users to appeal the decision should they disagree with the original decision. The same procedure applies: the appealing user pays the fee, the Court renders its decision, a three-day window is open, etc.
+
