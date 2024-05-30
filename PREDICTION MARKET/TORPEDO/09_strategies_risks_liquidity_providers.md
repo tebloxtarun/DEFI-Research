@@ -19,7 +19,7 @@ The following sections will help better understand the risks and what strategies
 
 #### Introduction to the Liquidity Mechanism
 
-The Polkamarkets Protocol uses an Automated Market Maker (AMM) system adapted to the Prediction Markets use case. As with other AMM-powered systems, such as Uniswap or other DEXes, Liquidity Providers who use the Polkamarkets Protocol must implement strategies to deal with the risk of loss. 
+The TORPEDO Protocol uses an Automated Market Maker (AMM) system adapted to the Prediction Markets use case. As with other AMM-powered systems, such as Uniswap or other DEXes, Liquidity Providers who use the TORPEDO Protocol must implement strategies to deal with the risk of loss. 
 Due to the zero-sum nature of prediction markets, the risk is greater than that incurred with other AMMs, as you’re risking near-total loss, rather than impermanent loss.
 
 At the moment of market creation, the initial Liquidity Provider’s stake is converted to liquidity shares. 
@@ -68,7 +68,9 @@ The following graph shows the return on investment (ROI) of providing liquidity 
 - Liquidity is provided at the time of market creation, when the outcome prices are even (0.5 for outcome A and 0.5 for outcome B)
 - The fee awarded to liquidity providers is 2%
 
-![ROI Graph](link-to-graph)
+![image](https://github.com/tebloxtarun/DEFI-Research/assets/170434531/640e39a7-ba42-42d0-9975-076c92161500)
+
+
 
 **Key Points:**
 - If the final price of the winning outcome is 0.5, the liquidity provider will always take a 2% profit if the trading volume is at least identical to the amount of liquidity added.
