@@ -29,3 +29,15 @@
 #### `src/usecases`
 - **Purpose:** Contains the use case logic of the application, segregated into different functional areas.
 
+##### Call
+- **CallController.ts**
+  - **Task:** Handles HTTP requests and responses for call-related operations, coordinating between the client and the use case logic.
+- **CallDTO.ts**
+  - **Task:** Defines the Data Transfer Object for call operations, ensuring consistent data structure between different layers of the application.
+- **CallSchema.ts**
+  - **Task:** Defines the validation schema for call-related data using a validation library like Yup.
+- **CallUseCase.ts**
+  - **Task:** Contains the core business logic for call operations, implementing the main functionality required for handling calls.
+- **index.ts**
+  - **Task:** Aggregates and exports the use case components for easy import elsewhere in the application.
+
