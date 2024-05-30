@@ -1,5 +1,5 @@
 
-### Adding Liquidity to Polkamarkets
+### Adding Liquidity to Torpedo
 
 When a Liquidity Provider adds liquidity to an existing market, two main things happen:
 1. The Liquidity Provider is assigned shares of the Liquidity Pool proportional to their contribution.
