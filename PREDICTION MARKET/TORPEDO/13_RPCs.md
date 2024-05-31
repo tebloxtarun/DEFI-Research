@@ -70,3 +70,41 @@
 
 #### `src/routes.ts`
 - **Task:** Defines the routes for the Express application, mapping endpoints to their respective controllers and middleware.
+
+In a tabular form:
+
+| Directory/File                        | Task Description |
+|---------------------------------------|------------------|
+| `src`                                 | Main source directory containing all the code for the application. |
+| `src/middlewares`                     | Contains middleware functions. |
+| `Yup.ts`                              | Middleware for schema validation using Yup. |
+| `src/models`                          | Defines data models. |
+| `contract.ts`                         | Defines the data model for contracts. |
+| `index.ts`                            | Aggregates and exports models in the directory. |
+| `src/providers`                       | Contains providers and their implementations. |
+| `ContractProviders.ts`                | Defines the interface for contract providers. |
+| `implementations`                     | Contains implementations of providers. |
+| `PolkamarketsContractsProviders.ts`   | Implements contract provider for Polkamarkets. |
+| `src/services`                        | Provides various services. |
+| `Etherscan.ts`                        | Provides services for interacting with Etherscan API. |
+| `RedisServices.ts`                    | Provides services for interacting with Redis. |
+| `src/usecases`                        | Contains the use case logic of the application. |
+| `Call`                                | Handles call-related operations. |
+| `CallController.ts`                   | Handles HTTP requests and responses for call operations. |
+| `CallDTO.ts`                          | Defines the Data Transfer Object for call operations. |
+| `CallSchema.ts`                       | Defines the validation schema for call data. |
+| `CallUseCase.ts`                      | Contains the core business logic for call operations. |
+| `index.ts` (in Call)                  | Aggregates and exports call use case components. |
+| `Events`                              | Handles event-related operations. |
+| `EventsController.ts`                 | Handles HTTP requests and responses for event operations. |
+| `EventsDTO.ts`                        | Defines the Data Transfer Object for event operations. |
+| `EventsSchema.ts`                     | Defines the validation schema for event data. |
+| `EventsUseCase.ts`                    | Contains the core business logic for event operations. |
+| `index.ts` (in Events)                | Aggregates and exports event use case components. |
+| `src/workers`                         | Manages background tasks. |
+| `BaseWorker.ts`                       | Defines a base class for workers. |
+| `EventsWorker.ts`                     | Worker for handling event-related background tasks. |
+| `src/app.ts`                          | Main application setup file for configuring the Express app. |
+| `src/index.ts`                        | Entry point of the application, starts the server and initializes connections. |
+| `src/queues.ts`                       | Sets up and manages BullMQ queues. |
+| `src/routes.ts`                       | Defines the routes for the Express application. |
