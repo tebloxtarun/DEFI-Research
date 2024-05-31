@@ -41,3 +41,32 @@
 - **index.ts**
   - **Task:** Aggregates and exports the use case components for easy import elsewhere in the application.
 
+##### Events
+- **EventsController.ts**
+  - **Task:** Handles HTTP requests and responses for event-related operations.
+- **EventsDTO.ts**
+  - **Task:** Defines the Data Transfer Object for event operations.
+- **EventsSchema.ts**
+  - **Task:** Defines the validation schema for event-related data.
+- **EventsUseCase.ts**
+  - **Task:** Contains the core business logic for event operations.
+- **index.ts**
+  - **Task:** Aggregates and exports the use case components for easy import elsewhere in the application.
+
+#### `src/workers`
+- **BaseWorker.ts**
+  - **Task:** Defines a base class for workers, providing common functionality and structure that other workers can extend.
+- **EventsWorker.ts**
+  - **Task:** Implements a worker specifically for handling event-related background tasks, using the structure provided by BaseWorker.
+
+#### `src/app.ts`
+- **Task:** The main application setup file where the Express app is configured. This includes middleware setup, route definitions, and other app-wide configurations.
+
+#### `src/index.ts`
+- **Task:** The entry point of the application. It typically starts the server, connects to databases, and performs any necessary initialization.
+
+#### `src/queues.ts`
+- **Task:** Sets up and manages BullMQ queues, defining how different types of jobs are processed and how the queues are monitored.
+
+#### `src/routes.ts`
+- **Task:** Defines the routes for the Express application, mapping endpoints to their respective controllers and middleware.
