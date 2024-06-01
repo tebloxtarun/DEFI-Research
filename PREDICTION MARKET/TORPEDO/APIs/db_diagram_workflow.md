@@ -5,11 +5,12 @@ In the database schema, several tables are interconnected through relationships 
 - **Achievements (`achievements` table)**:
   - Identified by `id`.
   - Connected to `achievement_tokens` through `achievement_id`.
+  
 
 - **Achievement Tokens (`achievement_tokens` table)**:
   - Identified by `id`.
   - Contains `achievement_id` which references `achievements.id`.
-  
+
   - This relationship allows associating multiple tokens with an achievement.
 
 ### 2. Active Storage Attachments and Blobs
