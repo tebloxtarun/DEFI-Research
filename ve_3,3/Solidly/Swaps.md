@@ -1,6 +1,6 @@
 ## V2 Swaps
 
-(Find out more about swaps here)[]
+More about swaps in ve(3,3) Overview.md/## Types of Liquidity Pools
 
 ## V3 Swaps
 
