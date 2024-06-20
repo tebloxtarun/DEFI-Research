@@ -10,6 +10,9 @@
 * Concentrated Liquidity
 > A concept in DeFi that allows LPs to allocate their capital within a specific price range rather than across the entire price spectrum. This means LPs can concentrate their liquidity where they expect the most trading activity to occur, increasing the efficiency of their capital.
 
+* Dilution
+> Typically refers to the reduction in the value of existing tokens due to the introduction of more tokens into circulation.
+
 * Emissions
 > Release of new tokens into circulation by a protocol, often used as rewards for participants who provide liquidity or other servies to support the network/ecosystem. They can be controlled to manage inflation and incentivize desired behaviours.
 
@@ -34,7 +37,7 @@
 * Trading Fee
 > A fee charged by a decentralized exchange (DEX) or an automated market maker (AMM) for facilitating trades between assets. This fee is usually a small percentage of the trade value and is distributed to liquidity providers or governance token holders.
 
-* Vote Escrow {ve}
+* Vote Escrow { the `ve` in `ve(3,3)` }
 > Vote Escrow is the mechanism of locking tokens for pre-set periods. The disadvantage of this mechanism is low liquidity.
 
 * (3,3)
